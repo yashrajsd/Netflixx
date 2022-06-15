@@ -1,0 +1,289 @@
+.body{
+  height: auto;
+  margin: 0px;
+}
+.bg{
+  box-shadow: 0px 200px 200px black inset;
+  box-shadow: bottom inset 0px 200px 200px black;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/25badb14-858b-4b1c-8b7d-2244098454d9/c18df626-e6fc-4dbb-818a-55d299b11842/IN-en-20220606-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+
+.top{
+  display: flex;
+}
+
+.top-signup{
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox{
+  border: none;
+  color: grey;
+}
+
+.logo{
+  margin-left: 3vh;
+  height: 120px;
+  width: 200px;
+  margin-bottom: 0px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-1{
+}
+
+.login{
+  display: flex;
+  background-color: black;
+  background: rgba(0,0,0,0.8);
+  width: 59vh;
+  height: 83vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.credential{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*background: red;*/
+  height: 70vh;
+  width: 40vh;
+  opacity: inherit;
+  flex-wrap: wrap;
+}
+
+.input{
+  border: none;
+  width: 41vh;
+  height: 7vh;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  background-color: #444444;
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+}
+
+.button{
+  background-color: #FF1818;
+  border: none;
+  width: 43vh;
+  height: 6vh;
+  border-radius: 8px;
+  margin-top: 4vh;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Manrope', sans-serif;
+}
+
+.button:hover {background-color: #FFC300}
+
+.button:active {
+  background-color: #FFC300;
+  transform: translateY(4px);
+}
+
+.sign{
+  width: 41vh;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sign-2{
+  height: 35px;
+  width: 90px;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  background-color: #FF1818;
+  border: none;
+}
+
+.change-language{
+  height: 35px;
+  width: 90px;
+  border-radius: 5px;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  background: black;
+  opacity: 0.7;
+  border: solid 2px grey;
+}
+
+.sub-div1{
+  display: flex;
+  align-items: center;
+}
+
+.pp-png{
+  margin: 0px;
+}
+
+.language{
+  display: flex;
+  width: 35vh;
+}
+
+.top-end{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/**signup page main **/
+
+.email-input{
+  height: 10vh;
+  width: 60vh;
+  margin: 0px;
+  border: none;
+  padding-left: 7px;
+}
+
+.signup-form{
+  display: flex;
+  padding: 0px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: 0px;
+}
+
+.signup-button{
+  border: none;
+  height: 10vh;
+  width: 30vh;
+  background-color: #F32424;
+  margin: 0px;
+  color: white;
+}
+
+.signup-button:hover{
+  background-color: #FF1818;
+}
+
+.main-0{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signup-input{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 10hv;
+}
+
+.formal{
+  display: flex;
+  justify-content: flex-start;
+  width: 42vh;
+  padding: 0px;
+  margin: 2vh 0vh 0vh 0vh;
+}
+
+.bottom{
+  display: flex;
+  justify-content: flex-start;
+  width: 42vh;
+  flex-direction: column;
+  margin-top: 8vh;
+}
+
+/* text */
+.h1{
+  /**margin-right: 20vh **/
+
+  margin-top: 0px;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Manrope', sans-serif;
+}
+
+.p{
+  color: grey;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Manrope', sans-serif;
+  margin: 0px;
+}
+
+.p1{
+  color: grey;
+  position: absolute;
+  float: right;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: grey;
+  font-size: 20px;
+}
+
+.signup{
+  text-decoration: none;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+}
+.signup:hover{
+  text-decoration: underline white;
+}
+.p3{
+  color: grey;
+  font-family: 'Bebas Neue', cursive;
+font-family: 'Manrope', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-size: 13px;
+margin-bottom: 3px;
+}
+
+.a1{
+  text-decoration: none;
+  color: #1363DF;
+}
+
+/**signup page**/
+.h1-2{
+  color: white;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-size: 9vh;
+}
+
+.p1-1{
+  color: white;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-size: 3vh;
+}
+
+.p1-2{
+  color: white;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Manrope', sans-serif;
+}
